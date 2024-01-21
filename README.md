@@ -5,7 +5,7 @@ The purpose of this document is to provide a comprehensive overview of the syste
 1.2 Scope
 This document covers the technical aspects of the video calling platform, including the system architecture, key components, data flow, and communication protocols.
 
-# 2. System overview
+# 2. System Overview
 2.1 System architecture
 The system follows a client-server architecture and uses WebRTC for real-time communication between clients. The server is implemented in ASP.NET, provides signaling and other necessary services.
 
