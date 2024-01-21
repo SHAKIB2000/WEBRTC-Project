@@ -1,9 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<div>
-    <video id="localVideo" autoplay playsinline> </video>
+
+<div class="text-center">
+    <h1>WebRTC Calling Platform</h1>
+    <div>
+        <video id="localVideo" autoplay playsinline> </video>
+        @* <video id="remoteVideo" autoplay playsinline></video> *@
+    </div>
+    <div>
+        <button id="muteButton" class="btn btn-primary">Mute</button>
+        <button id="cameraButton" class="btn btn-primary">Camera Off</button>
+    </div>
+    <div class="pt-2">
+        <button id="callButton" class="btn btn-outline-danger">Call</button>
+        <button id="hangUpButton" class="btn btn-danger">Hang Up</button>
+    </div>
 </div>
 
-<button id="muteButton" class="btn btn-primary">Mute yourself</button>
-<button id="cameraButton" class="btn btn-primary">Turn off camera</button>
