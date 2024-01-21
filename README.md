@@ -31,4 +31,4 @@ Backend: ASP.NET 7, C#.
 Open to mass people with meeting function.
 
 # 7. Conclusion
-This system design document provides a comprehensive overview of the One-to-One Video Calling Platform architecture, components, and features. It serves as a guide for development, testing, and deployment.
+This system design document provides a comprehensive overview of the One-to-One Video Calling Platform architecture, components, and features. It serves as a guide for development.
